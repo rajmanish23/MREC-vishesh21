@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>homePage</class>
+ <widget class="QMainWindow" name="homePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>362</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>362</width>
+    <height>528</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>362</width>
+    <height>528</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Home Page</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="newOrderButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>250</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NEW ORDER</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showOrdersButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>310</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SHOW ORDERS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>271</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold</family>
+      <pointsize>56</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>WASHA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="profileButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>228</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>example@email.com</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>236</x>
+      <y>450</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LOGOUT</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>362</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>Info</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuAbout"/>
+  </widget>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

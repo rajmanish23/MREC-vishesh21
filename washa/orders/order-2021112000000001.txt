@@ -1,0 +1,21 @@
+
+====== Order number 2021112000000001 ======
+
+Types of cleaning requested :
+dry clean
+wet clean
+
+Ironing requested : YES
+
+Weight of the order : 10 KGS
+
+Types of dresses to be washed :
+shirts
+pants
+
+Time to be delivered by : 12AM-2PM
+
+Delivery Address :
+sri vinayaka towers, beside avanthi pg college, dilshuknagar, hyderabad 500036
+
+=====================================

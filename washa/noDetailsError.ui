@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginFail</class>
+ <widget class="QMainWindow" name="loginFail">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>410</width>
+    <height>160</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>410</width>
+    <height>160</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Login Unsuccessful</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="dialogText">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>❌  PLEASE ENTER DETAILS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="okButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>84</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>OK</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
